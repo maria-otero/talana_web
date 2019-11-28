@@ -131,7 +131,7 @@ h6 {
   font-family: "Ubuntu", sans-serif;
   margin-top: 0;
   font-weight: 600;
-  color: #2b2350;
+  color: #212121;
 }
 
 img {
@@ -622,7 +622,7 @@ section {
   font-size: 16px;
   line-height: 36px;
   font-weight: 500;
-  color: #2b2350;
+  color: #212121;
   padding-left: 36px;
   position: relative;
 }
@@ -1926,7 +1926,7 @@ textarea {
 }
 
 .site-header .nav-dark .site-main-menu li a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .site-header .nav-dark .site-main-menu li a:after {
@@ -1938,7 +1938,7 @@ textarea {
 }
 
 .site-header .nav-dark .site-main-menu li.menu-item-has-children:after {
-  color: #2b2350;
+  color: #212121;
 }
 
 .site-header.header-five .header-inner .site-nav .menu-wrapper {
@@ -1967,7 +1967,7 @@ textarea {
 }
 
 .site-header.header-five .site-main-menu li a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .site-header.header-five .site-main-menu li a:after {
@@ -1979,7 +1979,7 @@ textarea {
 }
 
 .site-header.header-five .site-main-menu li.menu-item-has-children:after {
-  color: #2b2350;
+  color: #212121;
 }
 
 .site-header.header-five .site-main-menu li .sub-menu li a:hover, .site-header.header-five .site-main-menu li .sub-menu li a.current_page {
@@ -2280,7 +2280,7 @@ textarea {
     color: #7052fb;
   }
   .site-header.header-two .toggle-menu .bar {
-    background: #2b2350;
+    background: #212121;
   }
   .header-inner .site-mobile-logo img {
     max-height: 30px;
@@ -2332,13 +2332,13 @@ textarea {
   }
   .close-menu i {
     font-size: 36px;
-    color: #2b2350;
+    color: #212121;
   }
   .close-menu span {
     font-size: 15px;
   }
   .header-dark .toggle-menu .bar {
-    background: #2b2350;
+    background: #212121;
   }
 }
 
@@ -2461,11 +2461,11 @@ textarea {
 }
 
 .banner.banner-two .banner-content .banner-title {
-  color: #2b2350;
+  color: #212121;
 }
 
 .banner.banner-two .banner-content .description {
-  color: #2b2350;
+  color: #212121;
 }
 
 .banner.banner-two .banner-content .banner-btn.color-two {
@@ -3888,7 +3888,7 @@ section.featured {
 
 .section-title.style-three span {
   font-weight: 300;
-  color: #2b2350;
+  color: #212121;
 }
 
 
@@ -3968,7 +3968,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper.style-one .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .saaspik-icon-box-wrapper.style-one .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -3990,7 +3990,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .saaspik-icon-box-wrapper .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -4013,7 +4013,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -4088,7 +4088,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper.style-four .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .saaspik-icon-box-wrapper.style-four .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -4153,7 +4153,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper.style-five .pixsass-icon-box-content .more-btn {
-  color: #2b2350;
+  color: #212121;
   font-weight: 500;
 }
 
@@ -4230,7 +4230,7 @@ section.featured {
 }
 
 .saaspik-icon-box-wrapper.style-six .pixsass-icon-box-content .more-btn {
-  color: #2b2350;
+  color: #212121;
   font-weight: 500;
 }
 
@@ -4310,7 +4310,7 @@ section.featured {
 }
 
 .featured-two-service .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .featured-two-service .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -4351,7 +4351,7 @@ section.featured {
 }
 
 .featured-two-same .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .featured-two-same .saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
@@ -7325,7 +7325,7 @@ section.featured {
 
 .card .card-header .btn-link {
   padding: 0;
-  color: #2b2350;
+  color: #212121;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -7362,7 +7362,7 @@ section.featured {
 }
 
 .faq .card .card-header .btn-link {
-  color: #2b2350;
+  color: #212121;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
@@ -8187,7 +8187,7 @@ section.featured {
 .page-banner .page-title {
   font-size: 50px;
   font-weight: 800;
-  color: #2b2350;
+  color: #212121;
   position: relative;
   z-index: 2;
   max-width: 820px;
@@ -8221,7 +8221,7 @@ section.featured {
 }
 
 .page-banner .bradcurmed li a {
-  color: #2b2350;
+  color: #212121;
   font-weight: 500;
 }
 
@@ -8430,7 +8430,7 @@ section.featured {
 .page-banner .page-title {
   font-size: 50px;
   font-weight: 800;
-  color: #2b2350;
+  color: #212121;
   position: relative;
   z-index: 2;
   max-width: 820px;
@@ -8464,7 +8464,7 @@ section.featured {
 }
 
 .page-banner .bradcurmed li a {
-  color: #2b2350;
+  color: #212121;
   font-weight: 500;
 }
 
@@ -9093,7 +9093,7 @@ section.featured {
 }
 
 .pixsass-portfolio-items.portfolio-one .pixsass-portfolio-item .portfolio-info h3 a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .pixsass-portfolio-items.portfolio-one .pixsass-portfolio-item .portfolio-info h3 a:hover {
@@ -9166,7 +9166,7 @@ section.featured {
 }
 
 .pixsass-portfolio-items.portfolio-two .pixsass-portfolio-item .portfolio-info h3 a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .pixsass-portfolio-items.portfolio-two .pixsass-portfolio-item .portfolio-info h3 a:hover {
@@ -9382,7 +9382,7 @@ section.featured {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 45px;
-  color: #2b2350;
+  color: #212121;
 }
 
 .portfolio-content .portfolio-info .info li span {
@@ -9486,7 +9486,7 @@ section.featured {
 }
 
 .related-portfolio .portfolio-item .port-info h3 a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .related-portfolio .portfolio-item .port-info h3 a:hover {
@@ -10157,7 +10157,7 @@ section.featured {
 }
 
 .post-wrapper .category-item:hover {
-  background: #2b2350;
+  background: #212121;
   color: #fff;
 }
 
@@ -10204,7 +10204,7 @@ section.featured {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
-  color: #2b2350;
+  color: #212121;
   position: relative;
 }
 
@@ -10263,7 +10263,7 @@ section.featured {
 .post .author a {
   font-size: 16px;
   font-weight: 500;
-  color: #2b2350;
+  color: #212121;
 }
 
 .post .author a:hover {
@@ -10309,7 +10309,7 @@ section.featured {
 }
 
 .post.video-post .feature-image .video-btn i {
-  color: #2b2350;
+  color: #212121;
   font-size: 16px;
   font-size: 40px;
   line-height: 2.05;
@@ -10430,7 +10430,7 @@ section.featured {
 .author a {
   font-size: 16px;
   font-weight: 500;
-  color: #2b2350;
+  color: #212121;
 }
 
 .author a:hover {
@@ -10470,7 +10470,7 @@ section.featured {
 .quote-post span {
   font-size: 16px;
   font-weight: 500;
-  color: #2b2350;
+  color: #212121;
 }
 
 .quote-post .quote {
@@ -10594,7 +10594,7 @@ section.featured {
 }
 
 .blog-single .tagcloud span {
-  color: #2b2350;
+  color: #212121;
   display: inline-block;
   margin-right: 15px;
   font-size: 20px;
@@ -10618,7 +10618,7 @@ section.featured {
 }
 
 .blog-share .share-title p {
-  color: #2b2350;
+  color: #212121;
   display: inline-block;
   margin: 0;
   font-weight: 500;
@@ -10691,7 +10691,7 @@ section.featured {
 .pixsass_post_author_box .profile_content .profile_name {
   font-size: 20px;
   line-height: 28px;
-  color: #2b2350;
+  color: #212121;
   margin: 0;
 }
 
@@ -10716,7 +10716,7 @@ section.featured {
 .comment-area .coment-title {
   font-size: 24px;
   font-weight: 600;
-  color: #2b2350;
+  color: #212121;
   margin-bottom: 70px;
 }
 
@@ -10757,7 +10757,7 @@ section.featured {
 }
 
 .comment-list .comment .comment-body .comment-content h4 a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .comment-list .comment .comment-body .comment-content h4 a:hover {
@@ -10765,7 +10765,7 @@ section.featured {
 }
 
 .comment-list .comment .comment-body .comment-content .comment-reply-link {
-  color: #2b2350;
+  color: #212121;
   font-size: 15px;
   font-weight: 500;
 }
@@ -11142,7 +11142,7 @@ section.featured {
 }
 
 .gp-posts-widget-wrapper .post-item .post-widget-info .post-widget-title a {
-  color: #2b2350;
+  color: #212121;
 }
 
 .gp-posts-widget-wrapper .post-item .post-widget-info .post-widget-title a:hover {
@@ -11193,7 +11193,7 @@ section.featured {
   width: 70px;
   line-height: 77px;
   text-align: center;
-  color: #2b2350;
+  color: #212121;
   background: #f3ecec;
   border-radius: 50%;
   color: #797687;
@@ -11208,7 +11208,7 @@ section.featured {
 }
 
 .comment-list .comment-content h3 {
-  color: #2b2350;
+  color: #212121;
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -11646,7 +11646,7 @@ section.featured {
 }
 
 #footer .widget.footer-widget .widget-title {
-  color: #2b2350;
+  color: #212121;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 38px;
