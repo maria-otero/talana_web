@@ -146,27 +146,24 @@
 					<div class="col-md-4">
 						<div class="contact-infos">
 							<div class="contact-info">
-								<h3 class="title">Our Location</h3>
-								<p class="description">
-									Washington Fulton Street, Suite 640<br> New York, NY 10010
-								</p>
-
-								<div class="info phone">
-									<i class="ei ei-icon_phone"></i>
-									<span>+1 601 978 2212</span>
+								<h3 class="title">Contáctanos</h3>
+								<div class="info mb-2">
+									<a href="tel:+562 3264 0202">
+										<i class="ei ei-icon_phone"></i>
+										<span>+562 3264 0202</span>
+									</a>
 								</div>
-							</div>
-							<!-- /.contact-info -->
-
-							<div class="contact-info">
-								<h3 class="title">Say Hello</h3>
-								<p class="description">
-									Washington Fulton Street, Suite 640<br> New York, NY 10010
-								</p>
-
 								<div class="info">
-									<i class="ei ei-icon_mail_alt"></i>
-									<span>support@pixsaas.com</span>
+									<a href="mailto:contacto@talana.com">
+										<i class="ei ei-icon_mail_alt"></i>
+										<span>contacto@talana.com</span>
+									</a>
+								</div>
+								<div class="info">
+									<a href="https://goo.gl/maps/nKK2bTyRcCv" target="_blank">
+										<i class="ei ei-icon_pin"></i>
+										<span>Hendaya 60, Las Condes, Región Metropolitana, Chile</span>
+									</a>
 								</div>
 							</div>
 							<!-- /.contact-info -->
@@ -179,19 +176,39 @@
 							<form action="php/mailer.php" class="contact-form" data-pixsaas="contact-froms">
 								<div class="row">
 									<div class="col-md-6">
-										<input type="text" name="name" placeholder="Name" required>
+										<input type="text" name="name" placeholder="Nombre" required>
 									</div>
 
 									<div class="col-md-6">
 										<input type="email" name="email" placeholder="Email" required>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<input type="text" name="empresa" placeholder="Empresa" required>
+									</div>
+
+									<div class="col-md-6">
+										<input type="text" name="telefono" placeholder="Tel. (+569 0000000)" required>
+									</div>
+								</div>
 
 								<input type="text" name="subject" placeholder="Subject">
 
-								<textarea name="content" placeholder="Your Comment" required></textarea>
+								<div class="form-group">
+								<!-- <label for="exampleFormControlSelect1"></label> -->
+									<select class="form-control" id="exampleFormControlSelect1">
+										<option>Selecciona el motivo del mensaje</option>
+										<option>Contactarnos</option>
+										<option>Solicitar presupuesto</option>
+										<option>Soy trabajador y necesito soporte</option>
+										<option>Soy de RRHH y necesito soporte</option>
+									</select>
+								</div>
 
-								<button type="submit" class="pix-btn submit-btn">Send Your Massage</button>
+								<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+
+								<button type="submit" class="pix-btn submit-btn">Enviar mensaje</button>
 
 								<div class="form-result alert">
 									<div class="content"></div>

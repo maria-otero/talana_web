@@ -271,7 +271,6 @@ section {
 
 .pix-btn.submit-btn {
   border: 0;
-  padding: 11px 35px;
 }
 
 .pix-btn.submit-btn:focus {
@@ -8988,9 +8987,18 @@ section.featured {
   line-height: 28px;
 }
 
-.contact-infos .contact-info .description {
+.contact-infos .contact-info .info {
+  margin-bottom: 15px;
+}
+
+.contact-infos .contact-info a {
   font-size: 16px;
   line-height: 28px;
+  color: #797687;
+}
+
+.contact-infos .contact-info a:hover {
+  color: #0099c6;
 }
 
 .contact-infos .contact-info .info i {
