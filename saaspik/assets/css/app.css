@@ -8058,13 +8058,16 @@ section.featured {
 }
 
 .newsletter-form-two .newsletter-inner .newsletter-submit {
-  width: 220px;
-  height: 60px;
+  height: 47px;
+  padding-top: 3px;
+  padding-right: 32px;
+  padding-left: 32px;
   background: #fff;
-  border: 0;
-  border-radius: 30px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  font-size: 16px;
   color: #0099c6;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(79, 35, 35, 0.15);
           box-shadow: 0px 20px 30px 0px rgba(79, 35, 35, 0.15);
   -webkit-transition: all 0.3s ease-in-out;
@@ -11029,13 +11032,13 @@ section.featured {
 .search-form-widget .search-field {
   background: transparent;
   border: 0;
-  padding: 19px 10px 19px 30px;
+  padding: 10px 20px;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  border-radius: 45px;
+  border-radius: 6px;
   width: 100%;
-  border: 1px solid #efe7e7;
+  border: 1px solid #d7f3ff;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -11163,7 +11166,7 @@ section.featured {
 /* Tags */
 .tagcloud a {
   font-size: 14px;
-  background: #f3ecec;
+  background: #f2f9fc;
   color: #797687;
   padding: 6px 21px;
   font-weight: 500;
@@ -11198,7 +11201,7 @@ section.featured {
   line-height: 77px;
   text-align: center;
   color: #212121;
-  background: #f3ecec;
+  background: #f2f9fc;
   border-radius: 50%;
   color: #797687;
   margin-right: 30px;
