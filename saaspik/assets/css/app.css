@@ -465,7 +465,7 @@ section {
 
 .app-btn {
   padding: 10px 20px;
-  border-radius: 30px;
+  border-radius: 6px;
   color: #0099c6;
   display: inline-block;
   font-size: 18px;
@@ -2546,7 +2546,7 @@ textarea {
   color: #fff;
   padding: 8px 47px;
   border: 1px solid #fff;
-  border-radius: 30px;
+  border-radius: 6px;
   font-size: 14px;
   display: inline-block;
   font-weight: 600;
@@ -2877,7 +2877,7 @@ textarea {
   width: 100%;
   margin: 0;
   height: 56px;
-  border-radius: 30px;
+  border-radius: 6px;
   background: #fff;
   border: 0;
   outline: 0;
@@ -2899,7 +2899,7 @@ textarea {
   font-size: 16px;
   font-weight: 500;
   padding: 10px 30px;
-  border-radius: 30px;
+  border-radius: 6px;
 }
 
 .newsletter-form-banner .newsletter-inner button i {
@@ -4081,7 +4081,7 @@ section.featured {
 
 .saaspik-icon-box-wrapper.style-four {
   border-radius: 4px;
-  border: 1px solid #ece4e4;
+  /* border: 1px solid #ece4e4; */
   padding: 60px 40px 32px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -5317,7 +5317,7 @@ section.featured {
   font-weight: 500;
   cursor: pointer;
   padding: 11px 27px;
-  border-radius: 30px;
+  border-radius: 6px;
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -6849,7 +6849,7 @@ section.featured {
       -ms-transform: translateY(-3px);
           transform: translateY(-3px);
   border: 1px solid #dcd2d2;
-  border-radius: 30px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -9067,7 +9067,7 @@ section.featured {
   font-weight: 500;
   padding: 5px 23px;
   border: 1px solid transparent;
-  border-radius: 30px;
+  border-radius: 6px;
   display: inline-block;
 }
 
@@ -10434,7 +10434,7 @@ section.featured {
 
 .blog-post-two .blog-content .read-more {
   border: 2px solid #0099c6;
-  border-radius: 30px;
+  border-radius: 6px;
   padding: 7px 25px;
   font-weight: 500;
   display: inline-block;
@@ -11203,7 +11203,7 @@ section.featured {
   margin-bottom: 10px;
   margin-right: 4px;
   display: inline-block;
-  border-radius: 30px;
+  border-radius: 6px;
 }
 
 .tagcloud a:hover {
@@ -11534,7 +11534,7 @@ section.featured {
   display: inline-block;
   padding: 11px 35px;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 6px;
   font-size: 16px;
   width: 180px;
   text-align: center;
