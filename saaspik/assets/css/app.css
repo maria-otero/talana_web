@@ -7507,15 +7507,14 @@ section.featured {
 }
 
 .brand-logo img {
-  opacity: 0.5;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.brand-logo img:hover {
+/* .brand-logo img:hover {
   opacity: 1;
-}
+} */
 
 .brand-logo-ab {
   padding-bottom: 120px;
