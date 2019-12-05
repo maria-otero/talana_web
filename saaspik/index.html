@@ -163,7 +163,23 @@
 								Rediseñamos la forma de trabajar para <br> hacer más felices a las personas.
 							</p>
 
-							<a href="#" class="pxs-btn banner-btn wow pixFadeUp" data-wow-delay="0.6s">Contáctanos</a>
+							<!-- <a href="#" class="pxs-btn banner-btn wow pixFadeUp" data-wow-delay="0.6s">Contáctanos</a> -->
+							<form action="php/subscribe.php" method="post" class="newsletter-form-banner wow pixFadeUp" data-wow-delay="0.7s" data-pixsaas="newsletter-subscribe">
+								<div class="newsletter-inner">
+									<input type="email" name="email" class="form-control" id="newsletter-form-email" placeholder="Ingresa tu email" required="">
+									<button type="submit" name="submit" id="newsletter-submit" class="newsletter-submit">
+										<span>Contáctanos</span>
+										<i class="fas fa-spinner fa-spin"></i>
+									</button>
+								</div>
+								<!-- /.newsletter-inner -->
+
+								<div class="clearfix"></div>
+								<div class="form-result alert" style="display: none;">
+								<div class="content"></div>
+								</div>
+								<!-- /.form-result-->
+							</form>
 						</div>
 						<!-- /.banner-content -->
 					</div>
@@ -249,7 +265,7 @@
 				</div>
 				<!-- /#logo-carousel.swiper-container logo-carousel -->
 				<div class="button-container text-center wow pixFadeUp mt-60" data-wow-delay="0.3s">
-					<a href="#" class="pix-btn btn-outline">Ver más clientes</a>
+					<a href="clients.html" class="pix-btn btn-outline">Ver más clientes</a>
 				</div>
 			</div>
 
