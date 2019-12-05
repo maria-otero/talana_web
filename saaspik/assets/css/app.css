@@ -1746,7 +1746,7 @@ textarea {
 }
 
 .site-header .header-inner .site-nav .nav-right {
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .site-header .header-inner .site-nav .nav-right .nav-btn {
@@ -1815,7 +1815,7 @@ textarea {
 }
 
 .site-header .site-main-menu li {
-  margin: 0 23px;
+  margin: 0 18px;
   position: relative;
   padding: 36px 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2378,9 +2378,9 @@ textarea {
 
 .banner .banner-content-wrap {
   position: relative;
-  -webkit-transform: translateY(52%);
-      -ms-transform: translateY(52%);
-          transform: translateY(52%);
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
   z-index: 2;
 }
 
@@ -3126,9 +3126,9 @@ textarea {
 
 @media (max-width: 1600px) {
   .banner.banner-one .banner-content-wrap {
-    -webkit-transform: translateY(70%);
-        -ms-transform: translateY(70%);
-            transform: translateY(70%);
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
   }
   .banner.banner-one .promo-mockup {
     margin-left: -50px;
@@ -3164,9 +3164,9 @@ textarea {
 
 @media (max-width: 1440px) {
   .banner.banner-one .banner-content-wrap {
-    -webkit-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
   }
   .banner.banner-one .promo-mockup {
     margin-left: -50px;
@@ -3235,9 +3235,9 @@ textarea {
 
 @media (max-width: 1280px) {
   .banner.banner-one .banner-content-wrap {
-    -webkit-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
   }
   .banner.banner-one .banner-content .banner-title {
     font-size: 50px;
