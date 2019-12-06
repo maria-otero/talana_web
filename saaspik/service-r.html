@@ -431,33 +431,81 @@
 
 				<div class="newsletter-content-two text-center wow pixFadeUp">
 					<h2 class="title">
-						Comprueba ahora <br> los beneficios de Talana
+						Contáctanos
 					</h2>
 
-					<p class="description">
-						Solicita una demo personalizada para descubrir como pixsaas puede ayudarte a mejorar la<br> gestion de los clientes de tu despacho profesional.
-					</p>
+					<div class="contact-froms">
+						<form action="php/mailer.php" class="contact-form" data-pixsaas="contact-froms">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+									<!-- <label for="exampleFormControlSelect1"></label> -->
+										<select class="form-control" id="subject">
+											<option>Motivo del mensaje</option>
+											<option>Contactarnos</option>
+											<option>Solicitar presupuesto</option>
+											<option>Soy trabajador y necesito soporte</option>
+											<option>Soy de RRHH y necesito soporte</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="name" placeholder="Nombre" required>
+								</div>
+
+								<div class="col-md-6">
+									<input type="text" name="name" placeholder="Apellidos" required>
+								</div>
+
+								<div class="col-md-6">
+									<input type="email" name="email" placeholder="Email" required>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="telefono" placeholder="Tel. (+569 0000000)" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" name="empresa" placeholder="Nombre empresa" required>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+									<!-- <label for="exampleFormControlSelect1"></label> -->
+										<select class="form-control select-list" id="numberOfworkers">
+											<option>Selecciona el número de trabajadores</option>
+											<option>1-50 trabajadores</option>
+											<option>51-100 trabajadores</option>
+											<option>101-200 trabajadores</option>
+											<option>201-300 trabajadores</option>
+											<option>301-500 trabajadores</option>
+											<option>501-1000 trabajadores</option>
+											<option>1001-más trabajadores</option>
+										</select>
+									</div>
+								</div>
+
+								
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+								</div>
+								
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<button type="submit" class="pix-btn submit-fotm-btn">Enviar mensaje</button>
+								</div>
+							</div>
+
+							<div class="form-result alert">
+								<div class="content"></div>
+							</div>
+						</form>
+						<!-- /.contact-froms -->
+					</div>
 				</div>
-				<!-- /.newsletter-content -->
-
-				<form action="php/subscribe.php" method="post" class="newsletter-form-two wow pixFadeUp" data-pixsaas="newsletter-subscribe">
-					<div class="newsletter-inner">
-
-						<input type="email" name="email" class="form-control" id="newsletter-form-email" placeholder="Ingresa tu email" required>
-						<button type="submit" name="submit" id="newsletter-submit" class="newsletter-submit">
-					<span>Subscribirse</span>
-					<i class="fas fa-spinner fa-spin"></i>
-				</button>
-					</div>
-					<!-- /.newsletter-inner -->
-
-					<div class="clearfix"></div>
-					<div class="form-result alert">
-						<div class="content"></div>
-					</div>
-					<!-- /.form-result-->
-				</form>
-
+				<!-- /.newsletter-content -->		
 			</div>
 			<!-- /.container -->
 

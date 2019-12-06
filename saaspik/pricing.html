@@ -278,33 +278,97 @@
 		</section>
 		<!-- /.pricing -->
 
-		<!--==================================-->
-		<!--=         Call to Action         =-->
-		<!--==================================-->
-		<section class="call-to-action action-padding">
-			<div class="overlay-bg"><img src="media/background/ellipse.png" alt="bg"></div>
+		<!--=============================-->
+		<!--=         Newsletter        =-->
+		<!--=============================-->
+		<section class="newsletter-two" id="newsletter">
 			<div class="container">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-lg-7">
-						<div class="action-content style-two wow pixFadeUp">
-							<h2 class="title">
-								Getting connected with us<br> & for the update.
-							</h2>
-						</div>
-						<!-- /.action-content -->
-					</div>
-					<!-- /.col-lg-7 -->
 
-					<div class="col-lg-5 text-right">
-						<a href="#newsletter" class="pix-btn btn-light btn-big scroll-btn wow pixFadeUp">Subscribe Now!</a>
+				<div class="newsletter-content-two text-center wow pixFadeUp">
+					<h2 class="title">
+						Contáctanos
+					</h2>
+
+					<div class="contact-froms">
+						<form action="php/mailer.php" class="contact-form" data-pixsaas="contact-froms">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+									<!-- <label for="exampleFormControlSelect1"></label> -->
+										<select class="form-control" id="subject">
+											<option>Motivo del mensaje</option>
+											<option>Contactarnos</option>
+											<option>Solicitar presupuesto</option>
+											<option>Soy trabajador y necesito soporte</option>
+											<option>Soy de RRHH y necesito soporte</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="name" placeholder="Nombre" required>
+								</div>
+
+								<div class="col-md-6">
+									<input type="text" name="name" placeholder="Apellidos" required>
+								</div>
+
+								<div class="col-md-6">
+									<input type="email" name="email" placeholder="Email" required>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="telefono" placeholder="Tel. (+569 0000000)" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" name="empresa" placeholder="Nombre empresa" required>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+									<!-- <label for="exampleFormControlSelect1"></label> -->
+										<select class="form-control select-list" id="numberOfworkers">
+											<option>Selecciona el número de trabajadores</option>
+											<option>1-50 trabajadores</option>
+											<option>51-100 trabajadores</option>
+											<option>101-200 trabajadores</option>
+											<option>201-300 trabajadores</option>
+											<option>301-500 trabajadores</option>
+											<option>501-1000 trabajadores</option>
+											<option>1001-más trabajadores</option>
+										</select>
+									</div>
+								</div>
+
+								
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+								</div>
+								
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<button type="submit" class="pix-btn submit-fotm-btn">Enviar mensaje</button>
+								</div>
+							</div>
+
+							<div class="form-result alert">
+								<div class="content"></div>
+							</div>
+						</form>
+						<!-- /.contact-froms -->
 					</div>
-					<!-- /.col-lg-5 -->
 				</div>
-				<!-- /.row -->
+				<!-- /.newsletter-content -->		
 			</div>
 			<!-- /.container -->
+
+			<div class="scroll-circle wow pixFadeUp">
+				<img src="media/background/circle12.png" data-parallax='{"y" : -230}' alt="circle6">
+			</div>
 		</section>
-		<!-- /.call-to-action -->
+		<!-- /.newsletter -->
 
 
 		<!--=========================-->
